@@ -13,7 +13,21 @@ a {
 
 .container {
     display: flex;
-    
+}
+
+.left {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.right {
+    width: 70%;
+}
+
+.middle {
+    margin-top: 100px;
+    margin-bottom: auto;
 }
 
 .login-img {
@@ -56,7 +70,7 @@ height: 700px;
     width: 300px;
     height: 30px;
     border: 2px solid #cccccc;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 #login {
@@ -83,8 +97,6 @@ div.googlelogo {
     display: flex;
     margin: auto;
 }
-
-
 
 a.google-login {
     display: flex;
@@ -123,9 +135,6 @@ a.google-login {
 
 }
 
-.main {
-
-}
 
 .main > h1 ,h2, h3, h4 {
     text-align: center;
@@ -175,3 +184,16 @@ tr:nth-child(odd){background-color: rgba(196, 175, 255, 0.4);;}
 td:nth-child(4) {
     color: green;
 }
+
+select.dropdown {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    margin: 20px;
+    width: 150px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}   
+
