@@ -71,15 +71,20 @@ height: 700px;
     height: 30px;
 }
 
-
-
-#google-icon {
+.googlelogo {
     width: 33px;
 }
 
-.google-signin {
+img.googlelogo {
+    width: 33px;
+}
+
+div.googlelogo {
+    display: flex;
     margin: auto;
 }
+
+
 
 a.google-login {
     display: flex;
@@ -102,13 +107,71 @@ a.google-login {
     font-size: 50px;
 }
 
-.navbar > a {
+.navbar ,.navlink > a {
     padding: 10px;
     color: white;
+}
+
+.navlink {
+    display: flex;
+    margin-left: 10px;
 }
 
 .logo {
     width: 40px;
     height: auto;
 
+}
+
+.main {
+
+}
+
+.main > h1 ,h2, h3, h4 {
+    text-align: center;
+}
+
+.form-card {
+    background: #C4C4C4;
+    border-radius: 15px;
+    width: 80%;
+    height: 100vh;
+    max-width: 1200px;
+    margin: auto;
+}
+
+th, td {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th.order {
+    width: 50px;
+}
+
+th.name {
+    width: 300px;
+}
+
+th.workplace {
+    width: 250px;
+}
+
+th.workplaceinfo {
+    width: 250px;
+}
+
+td, th  {
+    height: 30px;
+    border: 1px solid black;
+}
+
+tr:nth-child(even){background-color: #ffffff;}
+tr:nth-child(odd){background-color: rgba(196, 175, 255, 0.4);;}
+td:nth-child(4) {
+    color: green;
 }
