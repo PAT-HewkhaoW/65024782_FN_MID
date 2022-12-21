@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    
+}
+
+.login-img {
+    
+    width: 491px;
+    height: 700px;
+    object-fit: cover;
+    
+}
+
+#login-img {
+
+}
+
+.login-menu {
+    width: 100%;
+    
+}
+
+.inline {
+    display: block;
+    margin: auto;
+}
+
+.textbox {
+    border: 1px solid #cccccc; 
+    outline:0; 
+    height:22px; 
+    width: 30px; 
+}
+
+.input {
+    margin: auto;
+    text-align: center;
+}
+
+.signin-input {
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+}
+
+#login {
+    font-size: 50px;
+    text-align: center;
+}
+
+#login-button {
+    width: 40%;
+}
