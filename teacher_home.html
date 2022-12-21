@@ -19,6 +19,42 @@
         </div>
     </div>
 
-    <div class="main"></div>
+        <div class="container middle">
+            <div class="left">
+                <div class="dropdown province">
+                    <form>
+                        <select class="dropdown" id="province" name="province">
+                        <option>จังหวัด</option>
+                        <option>พะเยา</option>
+                        <option>เชียงใหม่</option>
+                        </select>
+                      </form>
+
+                      <form>
+                        <select class="dropdown" id="company" name="company">
+                        <option>บริษัท</option>
+                        </select>
+                      </form>
+                </div>
+                
+            </div>
+            <div class="right">
+                <div id="googleMap" style="width:600px;height:600px; margin: 20px;"></div>
+            </div>
+        </div>
+
+
+
+    <script>
+        function myMap() {
+        var mapProp= {
+          center:new google.maps.LatLng(51.508742,-0.120850),
+          zoom:5,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+        </script>
+        
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 </body>
 </html>
